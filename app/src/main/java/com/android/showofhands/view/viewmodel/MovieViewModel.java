@@ -1,6 +1,6 @@
 package com.android.showofhands.view.viewmodel;
 
-import com.android.showofhands.MovieRepository;
+import com.android.showofhands.repository.MoviesRepository;
 import com.android.showofhands.model.Movie;
 
 import java.util.List;
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModel;
 
 public class MovieViewModel extends ViewModel {
 
-    private MovieRepository movieRepository;
+    private MoviesRepository moviesRepository;
 
 
     private LiveData<List<Movie>> movies;
@@ -18,8 +18,8 @@ public class MovieViewModel extends ViewModel {
 
     public MovieViewModel( ) {
         //super(application);
-        movieRepository = new MovieRepository();
-        movies = movieRepository.getMovies();
+        moviesRepository = new MoviesRepository();
+        movies = moviesRepository.getMovies();
     }
 
 

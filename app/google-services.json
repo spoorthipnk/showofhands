@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "516468643903",
+    "firebase_url": "https://showofhands-1bd95.firebaseio.com",
+    "project_id": "showofhands-1bd95",
+    "storage_bucket": "showofhands-1bd95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516468643903:android:eb9c741c57e67bb2",
+        "android_client_info": {
+          "package_name": "com.android.showofhands"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516468643903-m8lepf3684hv77iaqh8v895ne83u3rfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.showofhands",
+            "certificate_hash": "349f73f9bf691704028d8e5c760f14ee267ceabe"
+          }
+        },
+        {
+          "client_id": "516468643903-f2os6tqbt3gj5dndjgfblglpqb9od14v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANT0B-MP8VsBCqkgbCOWIhnuPYVKPHSHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516468643903-f2os6tqbt3gj5dndjgfblglpqb9od14v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,8 +3,6 @@ package com.android.showofhands.di;
 import android.app.Application;
 import android.content.Context;
 
-import com.android.showofhands.view.ui.App;
-
 import dagger.Module;
 import dagger.Provides;
 

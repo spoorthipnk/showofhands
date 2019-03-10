@@ -1,4 +1,4 @@
-package com.android.showofhands.view.ui;
+package com.android.showofhands.di;
 
 import javax.inject.Qualifier;
 
